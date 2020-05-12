@@ -19,6 +19,8 @@
 		F28D69D1246B27EE00998CC8 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D69D0246B27EE00998CC8 /* ParstagramUITests.swift */; };
 		F28D69DF246B2DD600998CC8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D69DE246B2DD600998CC8 /* LoginViewController.swift */; };
 		F28D69E1246B2DE700998CC8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D69E0246B2DE700998CC8 /* FeedViewController.swift */; };
+		F28D69E3246B3E5B00998CC8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D69E2246B3E5B00998CC8 /* CameraViewController.swift */; };
+		F28D69E5246B553400998CC8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D69E4246B553400998CC8 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		F28D69D2246B27EE00998CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F28D69DE246B2DD600998CC8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F28D69E0246B2DE700998CC8 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		F28D69E2246B3E5B00998CC8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		F28D69E4246B553400998CC8 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 				F28D69BC246B27EE00998CC8 /* Info.plist */,
 				F28D69DE246B2DD600998CC8 /* LoginViewController.swift */,
 				F28D69E0246B2DE700998CC8 /* FeedViewController.swift */,
+				F28D69E2246B3E5B00998CC8 /* CameraViewController.swift */,
+				F28D69E4246B553400998CC8 /* PostCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -411,9 +417,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F28D69DF246B2DD600998CC8 /* LoginViewController.swift in Sources */,
+				F28D69E3246B3E5B00998CC8 /* CameraViewController.swift in Sources */,
 				F28D69AF246B27E800998CC8 /* AppDelegate.swift in Sources */,
 				F28D69E1246B2DE700998CC8 /* FeedViewController.swift in Sources */,
 				F28D69B1246B27E800998CC8 /* SceneDelegate.swift in Sources */,
+				F28D69E5246B553400998CC8 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
