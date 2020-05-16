@@ -21,6 +21,7 @@
 		F28D69E1246B2DE700998CC8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D69E0246B2DE700998CC8 /* FeedViewController.swift */; };
 		F28D69E3246B3E5B00998CC8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D69E2246B3E5B00998CC8 /* CameraViewController.swift */; };
 		F28D69E5246B553400998CC8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28D69E4246B553400998CC8 /* PostCell.swift */; };
+		F2E6705D247096960060C1ED /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E6705C247096960060C1ED /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		F28D69E0246B2DE700998CC8 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		F28D69E2246B3E5B00998CC8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F28D69E4246B553400998CC8 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		F2E6705C247096960060C1ED /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				F28D69E0246B2DE700998CC8 /* FeedViewController.swift */,
 				F28D69E2246B3E5B00998CC8 /* CameraViewController.swift */,
 				F28D69E4246B553400998CC8 /* PostCell.swift */,
+				F2E6705C247096960060C1ED /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				F28D69E1246B2DE700998CC8 /* FeedViewController.swift in Sources */,
 				F28D69B1246B27E800998CC8 /* SceneDelegate.swift in Sources */,
 				F28D69E5246B553400998CC8 /* PostCell.swift in Sources */,
+				F2E6705D247096960060C1ED /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

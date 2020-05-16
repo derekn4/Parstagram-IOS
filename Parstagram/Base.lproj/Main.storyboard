@@ -125,7 +125,7 @@
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Derek" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7LQ-cs-gSw">
                                                     <rect key="frame" x="8" y="347" width="46" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -142,7 +142,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="F4A-CH-56T" secondAttribute="trailing" constant="8" id="IsZ-Yc-gbn"/>
                                                 <constraint firstItem="sU5-PU-0vY" firstAttribute="leading" secondItem="7LQ-cs-gSw" secondAttribute="trailing" constant="8" id="Un7-H9-VDq"/>
                                                 <constraint firstItem="F4A-CH-56T" firstAttribute="top" secondItem="yjB-JH-nqN" secondAttribute="top" constant="8" id="VK2-eb-wnh"/>
-                                                <constraint firstItem="7LQ-cs-gSw" firstAttribute="leading" secondItem="yjB-JH-nqN" secondAttribute="leading" constant="8" id="WFY-KS-ree"/>
+                                                <constraint firstItem="7LQ-cs-gSw" firstAttribute="leading" secondItem="yjB-JH-nqN" secondAttribute="leading" constant="16" id="WFY-KS-ree"/>
                                                 <constraint firstItem="7LQ-cs-gSw" firstAttribute="top" secondItem="F4A-CH-56T" secondAttribute="bottom" constant="8" id="Xl4-Fo-4iB"/>
                                                 <constraint firstItem="sU5-PU-0vY" firstAttribute="top" secondItem="F4A-CH-56T" secondAttribute="bottom" constant="8" id="iZj-8F-F6F"/>
                                                 <constraint firstItem="F4A-CH-56T" firstAttribute="leading" secondItem="yjB-JH-nqN" secondAttribute="leading" constant="8" id="o3A-8T-eC9"/>
@@ -153,6 +153,42 @@
                                             <outlet property="captionLabel" destination="sU5-PU-0vY" id="z22-wf-2N4"/>
                                             <outlet property="photoView" destination="F4A-CH-56T" id="NF5-tQ-Dce"/>
                                             <outlet property="usernameLabel" destination="7LQ-cs-gSw" id="DDS-5A-7PV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="yYh-CY-xsM" customClass="CommentCell" customModule="Parstagram" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="415" width="375" height="37"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yYh-CY-xsM" id="fTx-Bk-3LD">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="37"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Derek" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="92C-wp-H3a">
+                                                    <rect key="frame" x="16" y="8" width="46" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This is a fake comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4FW-bx-sBM">
+                                                    <rect key="frame" x="66" y="8" width="176" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="92C-wp-H3a" secondAttribute="bottom" constant="8" id="7hh-um-jHT"/>
+                                                <constraint firstItem="92C-wp-H3a" firstAttribute="leading" secondItem="fTx-Bk-3LD" secondAttribute="leading" constant="16" id="aNt-OB-dZO"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="4FW-bx-sBM" secondAttribute="bottom" constant="8" id="dRy-6T-TvV"/>
+                                                <constraint firstAttribute="trailing" secondItem="4FW-bx-sBM" secondAttribute="trailing" constant="8" id="knZ-fQ-fqm"/>
+                                                <constraint firstItem="92C-wp-H3a" firstAttribute="top" secondItem="fTx-Bk-3LD" secondAttribute="top" constant="8" id="omc-BA-DvY"/>
+                                                <constraint firstItem="4FW-bx-sBM" firstAttribute="leading" secondItem="92C-wp-H3a" secondAttribute="trailing" constant="8" id="p5o-Wm-nE9"/>
+                                                <constraint firstItem="4FW-bx-sBM" firstAttribute="leading" secondItem="92C-wp-H3a" secondAttribute="trailing" constant="8" id="s12-uq-til"/>
+                                                <constraint firstItem="4FW-bx-sBM" firstAttribute="top" secondItem="fTx-Bk-3LD" secondAttribute="top" constant="8" id="zP5-VO-cGq"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="commentLabel" destination="4FW-bx-sBM" id="6rF-bq-x0e"/>
+                                            <outlet property="nameLabel" destination="92C-wp-H3a" id="VfI-ez-2R2"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
