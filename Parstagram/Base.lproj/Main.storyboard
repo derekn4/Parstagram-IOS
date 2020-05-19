@@ -155,7 +155,7 @@
                                             <outlet property="usernameLabel" destination="7LQ-cs-gSw" id="DDS-5A-7PV"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="yYh-CY-xsM" customClass="CommentCell" customModule="Parstagram" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CommentCell" id="yYh-CY-xsM" customClass="CommentCell" customModule="Parstagram" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="415" width="375" height="37"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yYh-CY-xsM" id="fTx-Bk-3LD">
@@ -190,6 +190,28 @@
                                             <outlet property="commentLabel" destination="4FW-bx-sBM" id="6rF-bq-x0e"/>
                                             <outlet property="nameLabel" destination="92C-wp-H3a" id="VfI-ez-2R2"/>
                                         </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="R50-S3-fev">
+                                        <rect key="frame" x="0.0" y="452" width="375" height="37.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="R50-S3-fev" id="kb6-JQ-byC">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="37.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPn-9Q-bew">
+                                                    <rect key="frame" x="16" y="8" width="351" height="21.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="vPn-9Q-bew" firstAttribute="leading" secondItem="kb6-JQ-byC" secondAttribute="leading" constant="16" id="GgC-ch-qwh"/>
+                                                <constraint firstItem="vPn-9Q-bew" firstAttribute="top" secondItem="kb6-JQ-byC" secondAttribute="top" constant="8" id="HTS-De-pOv"/>
+                                                <constraint firstAttribute="trailing" secondItem="vPn-9Q-bew" secondAttribute="trailing" constant="8" id="p0z-Tx-bcm"/>
+                                                <constraint firstAttribute="bottom" secondItem="vPn-9Q-bew" secondAttribute="bottom" constant="8" id="tsX-JI-651"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
